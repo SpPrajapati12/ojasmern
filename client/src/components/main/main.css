@@ -1,0 +1,102 @@
+.row .main_C {
+    padding: 15px;
+}
+
+.row .main_C .panel {
+    height: 375px;
+    background-color: aliceblue;
+    border: 8px solid #00468B;
+}
+
+.row .main_C .panel_information {
+    max-height: 370px !important;
+    overflow-y: auto !important;
+}
+
+.panel .heading-texture {
+    background-color: #128FC8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 4px 0 !important;
+}
+
+.btn {
+    width: 114px;
+    height: 29px;
+    border-radius: 10px;
+}
+
+.row {
+    padding: 0;
+}
+
+.panel_information {
+    width: 100%;
+    height: 91%;
+    padding: 36px 36px 0px 28px;
+}
+
+.heading-image {
+    width: 100%;
+    height: 100%;
+}
+
+.heading-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.panel .heading-texture h5 {
+    margin: 0;
+    padding: 0;
+    font-family: HP Simplified
+}
+
+.curr_info a {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #00468B;
+}
+
+.view_btn {
+    margin-left: 45px;
+}
+
+.head_line {
+    width: 100%;
+    height: 26px;
+    left: 0px;
+    background: #00468B;
+    color: white;
+    font-weight: 700;
+    /* font-family: 'Calibri'; */
+}
+
+.view_btn a {
+    color: #00468B;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 14px;
+}
+
+@media screen and (max-width: 425px) {
+    .curr_info a {
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        color: #00468B;
+    }
+}

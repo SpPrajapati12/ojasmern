@@ -1,0 +1,35 @@
+.Query {
+    width: 100%;
+    background-color: #00468b;
+    padding: 5px 0;
+    font-family: HP Simplified
+}
+
+.Query .q_border {
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 0px 15px;
+}
+
+.list-group {
+    width: 30.33%;
+    align-content: center;
+}
+
+.list-group a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.list-group-item {
+    padding: 0;
+    color: #ffffff;
+    background-color: #00468b;
+    border-right: 1px solid #ffffff;
+    text-align: center;
+    outline: none;
+}
+
+.q_border ul .last {
+    border: none;
+}

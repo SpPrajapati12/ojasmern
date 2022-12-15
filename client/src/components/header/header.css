@@ -1,0 +1,68 @@
+          :root {
+             --content-color: #007eda;
+         }
+         
+         .d-flex .header_content p {
+             color: var(--content-color)!important;
+             font-family: HP Simplified
+         }
+         
+         .header_content {
+             margin-left: 10px;
+         }
+         
+         .header_content button {
+             font-family: Trebuchet;
+         }
+         
+         .col-2 .view_btn a {
+             font-size: 16px;
+         }
+         
+         @media screen and (max-width: 768px) {
+             .main_section {
+                 margin: 0px 30px !important;
+             }
+             .logo img {
+                 height: 50px;
+             }
+             .header_content .btn {
+                 width: 90px;
+                 height: 30px;
+             }
+             .view_btn {
+                 margin-left: 20px;
+             }
+         }
+         
+         @media screen and (max-width: 425px) {
+             .main_section {
+                 margin: 0px 5px !important;
+             }
+             .header {
+                 margin: 0px 10px !important;
+             }
+             .logo img {
+                 height: 40px;
+             }
+             .d-flex .header_content p {
+                 font-size: 10px;
+             }
+             .view_btn {
+                 margin-left: 00px;
+             }
+             .header_content .btn {
+                 width: 68px;
+                 font-size: 12px;
+                 height: 20px;
+             }
+         }
+         
+         @media screen and (max-width: 360px) {
+             .logo {
+                 margin: 10px 0 !important;
+             }
+             .view_btn {
+                 margin-left: 0;
+             }
+         }
